@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 360px;
+}
+
+.app__font  {
+  font-family: Ubuntu, sans-serif;
+
+  &.control-element {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+}
+
+.app__button {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  background-color: #659DBD;
+  color: #eeeeee;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #5B8DAA;
+  }
+
+}
