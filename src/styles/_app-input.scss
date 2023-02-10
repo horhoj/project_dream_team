@@ -1,0 +1,46 @@
+.app__input-wrap {
+  display: inline-flex;
+  position: relative;
+}
+
+.app__input-status-icon {
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  top: 17px;
+  width: 32px;
+  height: 32px;
+}
+
+.app__input {
+  min-height: 64px;
+  border: 1px solid #EAEAEA;
+  padding: 21px 24px;
+
+  &.is-show-icon {
+    padding: 21px 60px 21px 24px;
+  }
+
+  &::placeholder {
+    opacity: 1;
+    color: rgba(#232323, 40%);
+  }
+
+  &:hover {
+    border: 1px solid #659DBD;
+  }
+
+  &:focus {
+    border: 1px solid #659DBD;
+    outline: none;
+  }
+
+  &.status-success {
+    border: 1px solid #A2E0B2;
+  }
+
+  &.status-error {
+    border: 1px solid #E7717D;
+    color: #E7717D;
+  }
+}

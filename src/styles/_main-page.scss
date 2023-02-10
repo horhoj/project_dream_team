@@ -1,0 +1,155 @@
+.main-page__wrap {
+
+}
+
+.main-page__banner {
+  width: 100%;
+}
+
+.main-page__description-block-wrap {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.main-page__description-block-head {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 40px;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+  }
+}
+
+.main-page__description-block-title {
+  display: flex;
+}
+
+.main-page__description-block-feedback-wrap {
+  display: flex;
+}
+
+.main-page__description-block-feedback-button {
+  width: 354px;
+
+  @media (max-width: 1024px) {
+    width: 314px;
+
+  }
+}
+
+.main-page__description-block-content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  max-width: 586px;
+  color: rgba(#232323, 70%);
+
+  @media (max-width: 1024px) {
+    gap: 16px;
+  }
+
+}
+
+.main-page__slider-wrap {
+  margin-top: 64px;
+  display: flex;
+  overflow: hidden;
+}
+
+.main-page__slider-element-list {
+  display: flex;
+  gap: 32px;
+
+  @media (max-width: 1024px) {
+    gap: 24px;
+  }
+}
+
+.main-page__tour-element-list {
+  display: flex;
+  gap: 92px;
+
+  @media (max-width: 1024px) {
+    gap: 24px;
+  }
+}
+
+.main-page__slider-navigation-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 32px;
+
+  @media (max-width: 1024px) {
+    margin-top: 24px;
+    gap: 24px;
+  }
+}
+
+.main-page_slider-element {
+  width: 313px;
+  height: 336px;
+
+  @media (max-width: 1024px) {
+    width: 266px;
+    height: 284px;
+  }
+}
+
+
+
+.main-page__slider-navigation-button {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  fill: red;
+
+  background-image: url("../assets/img/main-page__slider-nav-button-icon.svg");
+
+  &:hover {
+    background-image: url("../assets/img/main-page__slider-nav-button-icon-active.svg");
+  }
+
+  &.prev {
+    transform: rotateZ(180deg);
+  }
+
+}
+
+.main-page__tour-card-wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 313px;
+  //background-color: #659DBD;
+}
+
+.main-page__tour-card-img {
+  height: 336px;
+  width: 313px;
+
+  @media (max-width: 1024px) {
+    height: 284px;
+    width: 266px;
+  }
+
+}
+
+.main-page__tour-card-title {
+  margin-top: 24px;
+}
+
+.main-page__tour-card-text {
+  margin-top: 16px;
+}
+
+.main-page__footer {
+  height: 150px;
+}

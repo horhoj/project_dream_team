@@ -1,37 +1,36 @@
+@import "app-input";
+@import "app-font";
+@import "app-button";
+@import "app_dropdown";
+@import "main-page";
+
 *,
 *::before,
 *::after {
-
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  min-width: 360px;
+  //min-width: 360px;
+  background-color: #ddd;
 }
 
-.app__font  {
-  font-family: Ubuntu, sans-serif;
+.app__wrap {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  background-color: #fff;
+}
 
-  &.control-element {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
+.app__container {
+  padding-left: 128px;
+  padding-right: 128px;
+
+  @media (max-width: 1024px) {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
-.app__button {
-  padding: 10px;
-  font-size: 14px;
-  cursor: pointer;
-  border: none;
-  background-color: #659DBD;
-  color: #eeeeee;
-  font-weight: bold;
-
-  &:hover {
-    background-color: #5B8DAA;
-  }
-
-}
