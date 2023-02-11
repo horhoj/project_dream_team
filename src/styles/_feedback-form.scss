@@ -1,0 +1,128 @@
+.feedback-form__wrap {
+  width: 100%;
+  height: 90%;
+  background-color: white;
+  box-shadow: 0 0 40px rgba(35, 35, 35, 0.05);
+  overflow: auto;
+
+  padding: 40px 64px;
+
+  @media (max-width: 1024px) {
+    padding: 46px 20px;
+  }
+
+  @media (max-width: 500px) {
+  }
+}
+
+.feedback-form__form {
+  display: flex;
+
+  flex-direction: column;
+  gap: 64px;
+  width: 100%;
+
+  @media (max-width: 1024px) {
+    gap: 46px;
+  }
+}
+
+.feedback-form__form-field-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+
+  &.is-row {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.feedback-form__form-field-error-msg {
+  color: #E7717D;
+}
+
+.feedback-form__form-top {
+  display: grid;
+  width: 100%;
+  gap: 32px;
+
+  grid-template-columns: 1fr 1fr;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feedback-form__feedback-type-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+  gap: 32px;
+  flex-wrap: wrap;
+
+  @media (max-width: 1400px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  @media (max-width: 1150px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+.feedback-form__feedback-type {
+  padding: 21px 21px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap !important;
+
+  &.is-not-selected {
+    background-color: white;
+    color: rgba(#232323, 70%);
+    border: 1px solid #EAEAEA;
+
+    &:hover {
+      color: #232323;
+      border: 1px solid #659DBD;
+    }
+
+  }
+}
+
+.feedback-form__bottom-block {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback-form__submit-button {
+  width: 320px;
+}
+
+.feedback-form__close-button {
+  width: 55px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  fill: red;
+
+  background-image: url("../assets/img/feedback-form__close-icon.svg");
+}
+
+.feedback-form__top-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

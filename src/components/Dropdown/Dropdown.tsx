@@ -165,6 +165,7 @@ export const Dropdown: React.FC<DropdownProps> = ({
               className={classNames(
                 'app-dropdown__item',
                 selectedItemId === index && 'is-selected',
+                'app__font control-element',
               )}
               key={index}
               onClick={() => handleItemClk(item.value)}

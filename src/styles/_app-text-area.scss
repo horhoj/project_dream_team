@@ -1,11 +1,11 @@
-.app__input-wrap {
+.app__text-area-wrap {
   position: relative;
   width: 100%;
 
 
 }
 
-.app__input-status-icon {
+.app__text-area-status-icon {
   position: absolute;
   z-index: 1;
   right: 20px;
@@ -14,11 +14,13 @@
   height: 32px;
 }
 
-.app__input {
+.app__text-area {
   min-height: 64px;
   border: 1px solid #EAEAEA;
   padding: 21px 24px;
   width: 100%;
+  resize: vertical;
+
 
   &.is-show-icon {
     padding: 21px 60px 21px 24px;

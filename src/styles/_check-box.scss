@@ -1,0 +1,25 @@
+.app__checkbox-wrap {
+
+}
+
+.app__checkbox-input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.app__checkbox-label {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  border: 1px solid #EAEAEA;
+
+  &:hover {
+    border: 1px solid #659DBD;
+  }
+
+  &.is-checked {
+    background-image: url("../assets/img/checkbox__arrow-icon.svg");
+  }
+}

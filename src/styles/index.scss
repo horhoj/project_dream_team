@@ -3,6 +3,10 @@
 @import "app-button";
 @import "app_dropdown";
 @import "main-page";
+@import "app-modal";
+@import "feedback-form";
+@import "app-text-area";
+@import "check-box";
 
 *,
 *::before,
@@ -13,8 +17,11 @@
 }
 
 body {
-  //min-width: 360px;
   background-color: #ddd;
+
+  &.overflow-hidden {
+    overflow: hidden;
+  }
 }
 
 .app__wrap {
