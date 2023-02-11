@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c7992a3a.css",
+    "main.js": "/static/js/main.272d911b.js",
+    "static/media/main-page__banner.png": "/static/media/main-page__banner.ed30eebcf8f17b2d2e7c.png",
+    "static/media/main-page__tour-img-2.png": "/static/media/main-page__tour-img-2.75394f80d2a59a05627c.png",
+    "static/media/main-page__tour-img-3.png": "/static/media/main-page__tour-img-3.ee813e4cacd2bc1858b3.png",
+    "static/media/main-page__slider-img-3.png": "/static/media/main-page__slider-img-3.628262c364b256aa0f05.png",
+    "static/media/main-page__tour-img-1.png": "/static/media/main-page__tour-img-1.d9786625538df50e92a3.png",
+    "static/media/main-page__slider-img-2.png": "/static/media/main-page__slider-img-2.e1e161137c94a336aa81.png",
+    "static/media/main-page__slider-img-1.png": "/static/media/main-page__slider-img-1.08d7340ac111cd388a95.png",
+    "static/media/main-page__slider-img-4.png": "/static/media/main-page__slider-img-4.903f5272d2ab3c3df2c1.png",
+    "index.html": "/index.html",
+    "static/media/checkbox__arrow-icon.svg": "/static/media/checkbox__arrow-icon.1422da9f57a8c2819fb0.svg",
+    "static/media/main-page__like-default-icon.svg": "/static/media/main-page__like-default-icon.d0908c634c54c9cbaabf.svg",
+    "static/media/main-page__like-active-icon.svg": "/static/media/main-page__like-active-icon.af69f7764e4aedc2eadc.svg",
+    "static/media/main-page__slider-nav-button-icon-active.svg": "/static/media/main-page__slider-nav-button-icon-active.78935d7295fdfa9a62a3.svg",
+    "static/media/dropdown-icon__arrow.svg": "/static/media/dropdown-icon__arrow.f5315f8c6b01be817d00808b454292cd.svg",
+    "static/media/main-page__slider-nav-button-icon.svg": "/static/media/main-page__slider-nav-button-icon.6b7705cc2ed47741b804.svg",
+    "static/media/input-icon__status-success.svg": "/static/media/input-icon__status-success.cd216d48469574d33276e800e9a4ae1d.svg",
+    "static/media/dropdown-icon__arrow-disable.svg": "/static/media/dropdown-icon__arrow-disable.2bb95efb8b18d02240442ecab1cd2fef.svg",
+    "static/media/feedback-form__close-icon.svg": "/static/media/feedback-form__close-icon.3c8ab4a5cab97238d909.svg",
+    "static/media/input-icon__status-error.svg": "/static/media/input-icon__status-error.3c8ab4a5cab97238d90949430259947b.svg",
+    "main.c7992a3a.css.map": "/static/css/main.c7992a3a.css.map",
+    "main.272d911b.js.map": "/static/js/main.272d911b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7992a3a.css",
+    "static/js/main.272d911b.js"
+  ]
+}
