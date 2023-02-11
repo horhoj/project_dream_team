@@ -101,7 +101,6 @@
 }
 
 
-
 .main-page__slider-navigation-button {
   width: 45px;
   height: 45px;
@@ -129,11 +128,15 @@
   flex-direction: column;
   max-width: 313px;
   //background-color: #659DBD;
+  position: relative;
+
+
 }
 
 .main-page__tour-card-img {
   height: 336px;
   width: 313px;
+
 
   @media (max-width: 1024px) {
     height: 284px;
@@ -152,4 +155,31 @@
 
 .main-page__footer {
   height: 150px;
+}
+
+.feedback-form__tour-card-like-button {
+  width: 55px;
+  height: 55px;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  cursor: pointer;
+  fill: red;
+  position: absolute;
+
+  right: 16px;
+  top: 16px;
+  opacity: .9;
+
+  &:hover {
+    opacity: 1;
+  }
+
+
+  background-image: url("../assets/img/main-page__like-default-icon.svg");
+
+  &.is-active {
+    background-image: url("../assets/img/main-page__like-active-icon.svg");
+  }
 }

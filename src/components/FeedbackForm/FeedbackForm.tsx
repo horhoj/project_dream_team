@@ -85,7 +85,11 @@ export const FeedbackForm: FC<FeedbackFormProps> = ({ onClose }) => {
       >
         <div className={'feedback-form__top-wrap'}>
           <span className={'app__font title'}>Feedback</span>{' '}
-          <button className={'feedback-form__close-button'} onClick={onClose} />
+          <button
+            className={'feedback-form__close-button'}
+            onClick={onClose}
+            type={'button'}
+          />
         </div>
 
         <div className={'feedback-form__form-top'}>

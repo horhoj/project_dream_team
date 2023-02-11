@@ -13,6 +13,15 @@ import { FeedbackForm } from '@components/FeedbackForm';
 export const MainPage: FC = () => {
   const [showFeedbackForm, setShowFeedbackForm] = useState<boolean>(false);
 
+  const [likeTourData, setLikeTourData] = useState<Record<string, boolean>>({});
+
+  const handleLikeTourToggle = (id: string) => {
+    setLikeTourData((prev) => ({
+      ...prev,
+      [id]: !prev[id],
+    }));
+  };
+
   const handleCloseFeedbackForm = () => {
     setShowFeedbackForm(false);
   };
@@ -102,6 +111,8 @@ export const MainPage: FC = () => {
                 title={tour.title}
                 text={tour.text}
                 key={tour.id}
+                onLike={() => handleLikeTourToggle(tour.id)}
+                isLikeActive={Boolean(likeTourData[tour.id])}
               />
             ))}
           </div>
